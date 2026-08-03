@@ -15,14 +15,14 @@ This is the kit attendees clone in Module 3. It installs the `marketing-agency` 
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/lukeselr/marketing-agency-workshop ~/marketing-agency-workshop
+git clone https://github.com/luke-heka/marketing-agency-workshop ~/marketing-agency-workshop
 bash ~/marketing-agency-workshop/install.sh
 ```
 
 ### Windows
 
 ```powershell
-git clone https://github.com/lukeselr/marketing-agency-workshop $HOME\marketing-agency-workshop
+git clone https://github.com/luke-heka/marketing-agency-workshop $HOME\marketing-agency-workshop
 pwsh $HOME\marketing-agency-workshop\install.ps1
 ```
 

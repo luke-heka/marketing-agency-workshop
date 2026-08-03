@@ -1,4 +1,4 @@
-$Repo = if ($env:MA_REPO) { $env:MA_REPO } else { "lukeselr/marketing-agency-workshop" }
+$Repo = if ($env:MA_REPO) { $env:MA_REPO } else { "luke-heka/marketing-agency-workshop" }
 $Tmp = New-Item -ItemType Directory -Path "$env:TEMP\ma-update-$(Get-Random)" -Force
 Set-Location $Tmp
 git clone "https://github.com/$Repo" .

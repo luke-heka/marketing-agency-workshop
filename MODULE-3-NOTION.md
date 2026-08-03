@@ -82,7 +82,7 @@ Here's exactly what to do, in order. Do not skip steps. Do not ask me which OS �
 2. Make a temp working dir at /tmp/selrai-marketing-install on Mac/Linux, or %TEMP%\selrai-marketing-install on Windows. If it already exists, delete it first (rm -rf or Remove-Item) so the clone is fresh.
 
 3. Clone the public repo into the temp dir:
-   git clone https://github.com/lukeselr/marketing-agency-workshop /tmp/selrai-marketing-install/marketing-agency-workshop
+   git clone https://github.com/luke-heka/marketing-agency-workshop /tmp/selrai-marketing-install/marketing-agency-workshop
 
 4. Run the installer. It copies the skill into ~/.claude/skills/marketing-agency, installs Python deps (with PEP 668 fallback), runs pre-flight, builds my ~/marketing/ dashboard folder, wires every MCP (Playwright, Meta Ads, LinkedIn Ads, Gmail, Google Drive, ManyChat, GHL, Telegram, Notion, Slack, Google Sheets), and installs the /marketing-agency slash command:
    bash /tmp/selrai-marketing-install/marketing-agency-workshop/install.sh
@@ -165,7 +165,7 @@ Every campaign launches **PAUSED**. Nothing spends until you click activate.
 
 ## Links
 
-- **Marketing-agency kit (public)** — [github.com/lukeselr/marketing-agency-workshop](https://github.com/lukeselr/marketing-agency-workshop)
+- **Marketing-agency kit (public)** — [github.com/luke-heka/marketing-agency-workshop](https://github.com/luke-heka/marketing-agency-workshop)
 - **Module 1 (workshop kit)** — see Module 1 for the prompt
 - **Module 2 (build your first AI automations)** — see Module 2 for the prompt
 - **Selr AI** — [workshop.selrai.com.au](https://workshop.selrai.com.au)

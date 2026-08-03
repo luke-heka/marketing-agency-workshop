@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Pull latest marketing-agency release from GitHub. Runs migration script.
 set -u
-REPO="${MA_REPO:-lukeselr/marketing-agency-workshop}"
+REPO="${MA_REPO:-luke-heka/marketing-agency-workshop}"
 SKILL_DIR="$HOME/.claude/skills/marketing-agency"
 TMP=$(mktemp -d)
 cd "$TMP"
