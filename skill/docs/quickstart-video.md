@@ -3,7 +3,7 @@
 ## Section 1 — Install (45 sec)
 
 ```
-git clone https://github.com/lukeselr/marketing-agency-workshop ~/marketing-agency-workshop
+git clone https://github.com/luke-heka/marketing-agency-workshop ~/marketing-agency-workshop
 bash ~/marketing-agency-workshop/install.sh
 ```
 
